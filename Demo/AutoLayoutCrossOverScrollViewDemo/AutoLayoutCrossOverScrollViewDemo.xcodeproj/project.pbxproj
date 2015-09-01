@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910F2A6A1B95513000653F88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F2A691B95513000653F88 /* AppDelegate.swift */; };
+		910F2A6F1B95513000653F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910F2A6D1B95513000653F88 /* Main.storyboard */; };
+		910F2A741B95513000653F88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910F2A721B95513000653F88 /* LaunchScreen.xib */; };
+		910F2A801B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F2A7F1B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests.swift */; };
+		910F2A8C1B9551EF00653F88 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F2A8B1B9551EF00653F88 /* MainController.swift */; };
+		910F2A8E1B95553E00653F88 /* HOCCCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F2A8D1B95553E00653F88 /* HOCCCodeController.swift */; };
+		910F2A901B95735E00653F88 /* HOCCStoryBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F2A8F1B95735E00653F88 /* HOCCStoryBoardController.swift */; };
+		910F2A921B9574CD00653F88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910F2A911B9574CD00653F88 /* Images.xcassets */; };
+		910F2A9D1B957BBB00653F88 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 910F2A951B957BBB00653F88 /* ALView+PureLayout.m */; };
+		910F2A9E1B957BBB00653F88 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 910F2A971B957BBB00653F88 /* NSArray+PureLayout.m */; };
+		910F2A9F1B957BBB00653F88 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 910F2A991B957BBB00653F88 /* NSLayoutConstraint+PureLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		910F2A7A1B95513000653F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910F2A5C1B95513000653F88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910F2A631B95513000653F88;
+			remoteInfo = AutoLayoutCrossOverScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		910F2A641B95513000653F88 /* AutoLayoutCrossOverScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutCrossOverScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910F2A681B95513000653F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910F2A691B95513000653F88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		910F2A6E1B95513000653F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		910F2A731B95513000653F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		910F2A791B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutCrossOverScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		910F2A7E1B95513000653F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910F2A7F1B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutCrossOverScrollViewDemoTests.swift; sourceTree = "<group>"; };
+		910F2A8B1B9551EF00653F88 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		910F2A8D1B95553E00653F88 /* HOCCCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOCCCodeController.swift; sourceTree = "<group>"; };
+		910F2A8F1B95735E00653F88 /* HOCCStoryBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOCCStoryBoardController.swift; sourceTree = "<group>"; };
+		910F2A911B9574CD00653F88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		910F2A941B957BBB00653F88 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		910F2A951B957BBB00653F88 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		910F2A961B957BBB00653F88 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		910F2A971B957BBB00653F88 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		910F2A981B957BBB00653F88 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		910F2A991B957BBB00653F88 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		910F2A9A1B957BBB00653F88 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		910F2A9B1B957BBB00653F88 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		910F2A9C1B957BBB00653F88 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		910F2AA91B957CCC00653F88 /* OC-Bridging-To-Swift-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OC-Bridging-To-Swift-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910F2A611B95513000653F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910F2A761B95513000653F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910F2A5B1B95513000653F88 = {
+			isa = PBXGroup;
+			children = (
+				910F2A661B95513000653F88 /* AutoLayoutCrossOverScrollViewDemo */,
+				910F2A7C1B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests */,
+				910F2A651B95513000653F88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		910F2A651B95513000653F88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910F2A641B95513000653F88 /* AutoLayoutCrossOverScrollViewDemo.app */,
+				910F2A791B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910F2A661B95513000653F88 /* AutoLayoutCrossOverScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				910F2A691B95513000653F88 /* AppDelegate.swift */,
+				910F2A8B1B9551EF00653F88 /* MainController.swift */,
+				910F2A8F1B95735E00653F88 /* HOCCStoryBoardController.swift */,
+				910F2A8D1B95553E00653F88 /* HOCCCodeController.swift */,
+				910F2A6D1B95513000653F88 /* Main.storyboard */,
+				910F2A721B95513000653F88 /* LaunchScreen.xib */,
+				910F2A911B9574CD00653F88 /* Images.xcassets */,
+				910F2A931B957BBB00653F88 /* PureLayout */,
+				910F2A671B95513000653F88 /* Supporting Files */,
+			);
+			path = AutoLayoutCrossOverScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		910F2A671B95513000653F88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				910F2A681B95513000653F88 /* Info.plist */,
+				910F2AA91B957CCC00653F88 /* OC-Bridging-To-Swift-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		910F2A7C1B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				910F2A7F1B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests.swift */,
+				910F2A7D1B95513000653F88 /* Supporting Files */,
+			);
+			path = AutoLayoutCrossOverScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		910F2A7D1B95513000653F88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				910F2A7E1B95513000653F88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		910F2A931B957BBB00653F88 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				910F2A941B957BBB00653F88 /* ALView+PureLayout.h */,
+				910F2A951B957BBB00653F88 /* ALView+PureLayout.m */,
+				910F2A961B957BBB00653F88 /* NSArray+PureLayout.h */,
+				910F2A971B957BBB00653F88 /* NSArray+PureLayout.m */,
+				910F2A981B957BBB00653F88 /* NSLayoutConstraint+PureLayout.h */,
+				910F2A991B957BBB00653F88 /* NSLayoutConstraint+PureLayout.m */,
+				910F2A9A1B957BBB00653F88 /* PureLayout+Internal.h */,
+				910F2A9B1B957BBB00653F88 /* PureLayout.h */,
+				910F2A9C1B957BBB00653F88 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910F2A631B95513000653F88 /* AutoLayoutCrossOverScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910F2A831B95513000653F88 /* Build configuration list for PBXNativeTarget "AutoLayoutCrossOverScrollViewDemo" */;
+			buildPhases = (
+				910F2A601B95513000653F88 /* Sources */,
+				910F2A611B95513000653F88 /* Frameworks */,
+				910F2A621B95513000653F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayoutCrossOverScrollViewDemo;
+			productName = AutoLayoutCrossOverScrollViewDemo;
+			productReference = 910F2A641B95513000653F88 /* AutoLayoutCrossOverScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		910F2A781B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910F2A861B95513000653F88 /* Build configuration list for PBXNativeTarget "AutoLayoutCrossOverScrollViewDemoTests" */;
+			buildPhases = (
+				910F2A751B95513000653F88 /* Sources */,
+				910F2A761B95513000653F88 /* Frameworks */,
+				910F2A771B95513000653F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				910F2A7B1B95513000653F88 /* PBXTargetDependency */,
+			);
+			name = AutoLayoutCrossOverScrollViewDemoTests;
+			productName = AutoLayoutCrossOverScrollViewDemoTests;
+			productReference = 910F2A791B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910F2A5C1B95513000653F88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = FasaMo;
+				TargetAttributes = {
+					910F2A631B95513000653F88 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					910F2A781B95513000653F88 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 910F2A631B95513000653F88;
+					};
+				};
+			};
+			buildConfigurationList = 910F2A5F1B95513000653F88 /* Build configuration list for PBXProject "AutoLayoutCrossOverScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 910F2A5B1B95513000653F88;
+			productRefGroup = 910F2A651B95513000653F88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910F2A631B95513000653F88 /* AutoLayoutCrossOverScrollViewDemo */,
+				910F2A781B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910F2A621B95513000653F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910F2A921B9574CD00653F88 /* Images.xcassets in Resources */,
+				910F2A6F1B95513000653F88 /* Main.storyboard in Resources */,
+				910F2A741B95513000653F88 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910F2A771B95513000653F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910F2A601B95513000653F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910F2A9F1B957BBB00653F88 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				910F2A8C1B9551EF00653F88 /* MainController.swift in Sources */,
+				910F2A8E1B95553E00653F88 /* HOCCCodeController.swift in Sources */,
+				910F2A6A1B95513000653F88 /* AppDelegate.swift in Sources */,
+				910F2A9D1B957BBB00653F88 /* ALView+PureLayout.m in Sources */,
+				910F2A9E1B957BBB00653F88 /* NSArray+PureLayout.m in Sources */,
+				910F2A901B95735E00653F88 /* HOCCStoryBoardController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910F2A751B95513000653F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910F2A801B95513000653F88 /* AutoLayoutCrossOverScrollViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		910F2A7B1B95513000653F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910F2A631B95513000653F88 /* AutoLayoutCrossOverScrollViewDemo */;
+			targetProxy = 910F2A7A1B95513000653F88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		910F2A6D1B95513000653F88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910F2A6E1B95513000653F88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		910F2A721B95513000653F88 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910F2A731B95513000653F88 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910F2A811B95513000653F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		910F2A821B95513000653F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		910F2A841B95513000653F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoLayoutCrossOverScrollViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoLayoutCrossOverScrollViewDemo/OC-Bridging-To-Swift-Header.h";
+			};
+			name = Debug;
+		};
+		910F2A851B95513000653F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoLayoutCrossOverScrollViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoLayoutCrossOverScrollViewDemo/OC-Bridging-To-Swift-Header.h";
+			};
+			name = Release;
+		};
+		910F2A871B95513000653F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoLayoutCrossOverScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutCrossOverScrollViewDemo.app/AutoLayoutCrossOverScrollViewDemo";
+			};
+			name = Debug;
+		};
+		910F2A881B95513000653F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoLayoutCrossOverScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutCrossOverScrollViewDemo.app/AutoLayoutCrossOverScrollViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910F2A5F1B95513000653F88 /* Build configuration list for PBXProject "AutoLayoutCrossOverScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910F2A811B95513000653F88 /* Debug */,
+				910F2A821B95513000653F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910F2A831B95513000653F88 /* Build configuration list for PBXNativeTarget "AutoLayoutCrossOverScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910F2A841B95513000653F88 /* Debug */,
+				910F2A851B95513000653F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		910F2A861B95513000653F88 /* Build configuration list for PBXNativeTarget "AutoLayoutCrossOverScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910F2A871B95513000653F88 /* Debug */,
+				910F2A881B95513000653F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 910F2A5C1B95513000653F88 /* Project object */;
+}
